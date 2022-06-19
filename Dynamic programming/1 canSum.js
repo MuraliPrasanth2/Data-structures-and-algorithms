@@ -14,10 +14,3 @@ function canSum(target, numbers, memo = {}) {
   memo[target] = false;
   return memo[target];
 }
-
-console.log(canSum(7, [1, 2, 3, 4]));
-console.log(canSum(5, [3, 4, 5]));
-console.log(canSum(8, [4, 3, 5]));
-console.log(canSum(0, [1, 2, 3]));
-console.log(canSum(2, [3, 4, 5]));
-console.log(canSum(10000, [5, 4, 5]));
