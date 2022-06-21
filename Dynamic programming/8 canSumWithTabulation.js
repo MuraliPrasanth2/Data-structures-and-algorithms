@@ -10,6 +10,6 @@ function canSum(target, numbers) {
       }
     }
   }
-  console.log(result);
+
   return result[target];
 }
