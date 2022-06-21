@@ -1,6 +1,6 @@
 function countWaysRecursive(rows, columns, memo = {}) {
-  if (rows === 1 && columns === 1) return 1;
-  if (rows === 0 || columns === 0) return 0;
+  if (rows === 1 && columns === 1) return 1n;
+  if (rows === 0 || columns === 0) return 0n;
 
   const key1 = `${rows},${columns}`;
   if (key1 in memo) return memo[key1];
